@@ -7,7 +7,7 @@ public class RunDijikstraService {
     public static int run(int node){
         int size = locationsSize();
         ArrayList<ArrayList<Pair>> adjMatrix = getAdjList();
-        int []distances = DijikstraImplementation.calculateShortestPath(adjMatrix,node ,size);
+        int []distances = DijikstraImplementation.calculateShortestPathNode(adjMatrix,node ,size);
         return shortestPath(distances, node);
     }
 
