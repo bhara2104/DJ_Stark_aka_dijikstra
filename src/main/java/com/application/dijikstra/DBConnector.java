@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DBConnector {
-    private static final String URL = "jdbc:postgresql://localhost:5432/cab_booking" ;
+    private static final String URL = "jdbc:postgresql://localhost:5432/dijikstra_db" ;
     private static final String USERNAME = "bharathkumar" ;
     private static final String PASSWORD = "Bharath123";
     public static Connection connection;

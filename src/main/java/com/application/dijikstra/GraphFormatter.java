@@ -6,11 +6,12 @@ import java.util.List;
 public class GraphFormatter {
     public static ArrayList<ArrayList<Pair>> graphFormatter(List<GraphComponent> graphComponentList, int size){
         ArrayList<ArrayList<Pair>> adjMatrix = new ArrayList<>() ;
-        for(int i = 0 ; i<=size; i++){
+        System.out.println(size+1);
+        for(int i = 0 ; i<=size+1; i++){
             adjMatrix.add(new ArrayList<>());
         }
 
-        for(int i = 0 ; i < graphComponentList.size(); i++){
+        for(int i = 0 ; i <graphComponentList.size(); i++){
             int id1 = graphComponentList.get(i).fromLocation;
             int id2 = graphComponentList.get(i).toLocation;
             int weight = graphComponentList.get(i).weight;
