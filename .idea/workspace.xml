@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d8cc8d9-0c42-43d6-aba7-48b83467796a" name="Changes" comment="Bug Fixing for wrong input of weight over the node">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/DijikstraImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/DijikstraImplementation.java" afterDir="false" />
+    <list default="true" id="0d8cc8d9-0c42-43d6-aba7-48b83467796a" name="Changes" comment="Done DJ Stark (Dijikstra's) Implementation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/GraphFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/GraphFormatter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +148,7 @@
       <workItem from="1720154541896" duration="14000" />
       <workItem from="1720156573837" duration="1440000" />
       <workItem from="1720158041586" duration="96000" />
-      <workItem from="1720158156490" duration="4304000" />
+      <workItem from="1720158156490" duration="6673000" />
     </task>
     <task id="LOCAL-00001" summary="Dijikstra for shortest path between locations">
       <option name="closed" value="true" />
@@ -197,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720163976000</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Done DJ Stark (Dijikstra's) Implementation">
+      <option name="closed" value="true" />
+      <created>1720164145875</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720164145875</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +219,7 @@
     <MESSAGE value="Renamed Hello Servlet as DijikstraServlet" />
     <MESSAGE value="Size fix implemented" />
     <MESSAGE value="Bug Fixing for wrong input of weight over the node" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug Fixing for wrong input of weight over the node" />
+    <MESSAGE value="Done DJ Stark (Dijikstra's) Implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done DJ Stark (Dijikstra's) Implementation" />
   </component>
 </project>
