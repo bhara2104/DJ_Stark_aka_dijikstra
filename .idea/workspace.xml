@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d8cc8d9-0c42-43d6-aba7-48b83467796a" name="Changes" comment="Dijikstra for shortest path between locations">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/GraphComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/GraphFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/GraphFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/LocationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/LocationHelper.java" afterDir="false" />
+    <list default="true" id="0d8cc8d9-0c42-43d6-aba7-48b83467796a" name="Changes" comment="Graph Formatter Added to Generate The Adjacency List from the database">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/RunDijikstraService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/DijistraImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/DijikstraImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/HelloServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "codermusk"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/codermusk/DJ_Stark_aka_dijikstra.git",
+    "accountId": "161d5406-c775-4c4a-b3ca-fcdfbb482ec6"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -60,6 +71,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.application.dijikstra" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.25" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.25" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Dijikstra_war_exploded/" />
@@ -103,7 +119,7 @@
       <workItem from="1720154541896" duration="14000" />
       <workItem from="1720156573837" duration="1440000" />
       <workItem from="1720158041586" duration="96000" />
-      <workItem from="1720158156490" duration="1257000" />
+      <workItem from="1720158156490" duration="2089000" />
     </task>
     <task id="LOCAL-00001" summary="Dijikstra for shortest path between locations">
       <option name="closed" value="true" />
@@ -113,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720158199210</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Graph Formatter Added to Generate The Adjacency List from the database">
+      <option name="closed" value="true" />
+      <created>1720159832570</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720159832570</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +145,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dijikstra for shortest path between locations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dijikstra for shortest path between locations" />
+    <MESSAGE value="Graph Formatter Added to Generate The Adjacency List from the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph Formatter Added to Generate The Adjacency List from the database" />
   </component>
 </project>
