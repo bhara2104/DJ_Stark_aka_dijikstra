@@ -4,28 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d8cc8d9-0c42-43d6-aba7-48b83467796a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/DBConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/DijistraImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/GraphFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/LocationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="0d8cc8d9-0c42-43d6-aba7-48b83467796a" name="Changes" comment="Dijikstra for shortest path between locations">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/GraphComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/GraphFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/GraphFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/LocationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/LocationHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,10 +103,24 @@
       <workItem from="1720154541896" duration="14000" />
       <workItem from="1720156573837" duration="1440000" />
       <workItem from="1720158041586" duration="96000" />
+      <workItem from="1720158156490" duration="1257000" />
     </task>
+    <task id="LOCAL-00001" summary="Dijikstra for shortest path between locations">
+      <option name="closed" value="true" />
+      <created>1720158199210</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720158199210</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dijikstra for shortest path between locations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dijikstra for shortest path between locations" />
   </component>
 </project>
