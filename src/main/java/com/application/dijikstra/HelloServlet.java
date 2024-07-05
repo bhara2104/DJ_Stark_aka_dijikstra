@@ -15,12 +15,10 @@ public class HelloServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
-
-        // Hello
         PrintWriter out = response.getWriter();
-        out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
-        out.println("</body></html>");
+        int source = Integer.parseInt(request.getParameter("source_location"));
+        int shortestLocation = RunDijikstraService.run(source);
+        out.println("The Shortest Location is From: "+  shortestLocation);
     }
 
     public void destroy() {

@@ -1,18 +1,17 @@
 package com.application.dijikstra;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.PriorityQueue;
 
-public class DijistraImplementation {
+public class DijikstraImplementation {
     public static int[] calculateShortestPath(ArrayList<ArrayList<Pair>>adj, int node, int size){
-        int dist[] = new int[size];
+        int []dist = new int[size];
         PriorityQueue<Pair> pq= new PriorityQueue<Pair>((x, y) -> x.distance - y.distance);
-        for(int i = 0 ; i < size; i++){
-            dist[i] = Integer.MAX_VALUE;
-        }
+        Arrays.fill(dist, Integer.MAX_VALUE);
         dist[node] = 0 ;
         pq.add(new Pair(node, 0));
-        while (pq.size()!=0){
+        while (!pq.isEmpty()){
             int v = pq.peek().node;
             int weight = pq.peek().distance;
             pq.poll();
