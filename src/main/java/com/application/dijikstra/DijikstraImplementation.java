@@ -1,9 +1,6 @@
 package com.application.dijikstra;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class DijikstraImplementation {
     public static int[] calculateShortestPathNode(ArrayList<ArrayList<Pair>> adj, int node, int size) {
@@ -64,7 +61,7 @@ public class DijikstraImplementation {
             node = parent[node];
         }
         path.add(start);
-
+        Collections.reverse(path);
         return path;
     }
 

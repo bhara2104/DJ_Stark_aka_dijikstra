@@ -38,4 +38,11 @@ public class RunDijikstraService {
         }
         return minPathID;
     }
+
+    public static String shortestPathFromVertices(int startNode , int endNode){
+        int size = locationsSize();
+        ArrayList<ArrayList<Pair>> adjMatrix = getAdjList();
+        ArrayList<Integer> path = DijikstraImplementation.calculateTheShortestPath(adjMatrix,startNode,endNode,size);
+        return path.toString();
+    }
 }
