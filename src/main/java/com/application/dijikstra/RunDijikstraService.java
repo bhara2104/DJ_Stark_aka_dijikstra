@@ -18,7 +18,7 @@ public class RunDijikstraService {
 
     public static ArrayList<ArrayList<Pair>> getAdjList(){
         List<GraphComponent> graphComponentList = getComponents();
-        int size = locationsSize();
+        //int size = locationsSize();
         return GraphFormatter.graphFormatter(graphComponentList,locationsSize());
     }
 
