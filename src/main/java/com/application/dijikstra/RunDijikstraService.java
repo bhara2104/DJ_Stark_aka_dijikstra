@@ -2,6 +2,7 @@ package com.application.dijikstra;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class RunDijikstraService {
     public static int run(int node){
@@ -43,6 +44,6 @@ public class RunDijikstraService {
         int size = locationsSize();
         ArrayList<ArrayList<Pair>> adjMatrix = getAdjList();
         ArrayList<Integer> path = DijikstraImplementation.calculateTheShortestPath(adjMatrix,startNode,endNode,size);
-        return path.toString();
+        return path.stream().map(Object::toString).collect(Collectors.joining("-> "));
     }
 }
