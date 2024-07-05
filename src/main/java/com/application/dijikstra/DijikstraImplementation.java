@@ -64,5 +64,11 @@ public class DijikstraImplementation {
         Collections.reverse(path);
         return path;
     }
-
 }
+
+// How you will be picking up the driver in the way
+// if(path.contains(startLocationofNewRide)){
+// if(newRidePathFromAndPathMatches(path, newRideShortestPath)){
+// Driver.notify(newRide)
+// }
+//}
