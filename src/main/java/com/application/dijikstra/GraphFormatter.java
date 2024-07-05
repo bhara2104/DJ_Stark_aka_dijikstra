@@ -6,7 +6,7 @@ import java.util.List;
 public class GraphFormatter {
     public static ArrayList<ArrayList<Pair>> graphFormatter(List<GraphComponent> graphComponentList, int size){
         ArrayList<ArrayList<Pair>> adjMatrix = new ArrayList<>() ;
-        for(int i = 0 ; i<size; i++){
+        for(int i = 0 ; i<=size; i++){
             adjMatrix.add(new ArrayList<>());
         }
 

@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 
 public class DijikstraImplementation {
     public static int[] calculateShortestPath(ArrayList<ArrayList<Pair>>adj, int node, int size){
-        int []dist = new int[size];
+        int []dist = new int[size+1];
         PriorityQueue<Pair> pq= new PriorityQueue<Pair>((x, y) -> x.distance - y.distance);
         Arrays.fill(dist, Integer.MAX_VALUE);
         dist[node] = 0 ;

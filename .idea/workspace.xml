@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d8cc8d9-0c42-43d6-aba7-48b83467796a" name="Changes" comment="Graph Formatter Added to Generate The Adjacency List from the database">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/RunDijikstraService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/DijistraImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/DijikstraImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/HelloServlet.java" afterDir="false" />
+    <list default="true" id="0d8cc8d9-0c42-43d6-aba7-48b83467796a" name="Changes" comment="Renamed Hello Servlet as DijikstraServlet">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/DijikstraImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/DijikstraImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/DijikstraServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/DijikstraServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/GraphFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/dijikstra/GraphFormatter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +120,7 @@
       <workItem from="1720154541896" duration="14000" />
       <workItem from="1720156573837" duration="1440000" />
       <workItem from="1720158041586" duration="96000" />
-      <workItem from="1720158156490" duration="2089000" />
+      <workItem from="1720158156490" duration="2841000" />
     </task>
     <task id="LOCAL-00001" summary="Dijikstra for shortest path between locations">
       <option name="closed" value="true" />
@@ -137,7 +138,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720159832570</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Coded Dijikstra and winding up all the necessary implementations">
+      <option name="closed" value="true" />
+      <created>1720160668271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720160668271</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Renamed Hello Servlet as DijikstraServlet">
+      <option name="closed" value="true" />
+      <created>1720160751116</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720160751116</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +163,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dijikstra for shortest path between locations" />
     <MESSAGE value="Graph Formatter Added to Generate The Adjacency List from the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph Formatter Added to Generate The Adjacency List from the database" />
+    <MESSAGE value="Coded Dijikstra and winding up all the necessary implementations" />
+    <MESSAGE value="Renamed Hello Servlet as DijikstraServlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed Hello Servlet as DijikstraServlet" />
   </component>
 </project>
